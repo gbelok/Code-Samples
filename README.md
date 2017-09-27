@@ -6,3 +6,9 @@ If we consider the events to be independent, we generated two independent random
 I determined that the variance in the dependent case is larger which provides insight into properties like risk when applying this to insurance or credit risk.
 
 PaperSim.m models loss in the independent case and Dependent_case.m models loss in the dependent case.
+
+The project4.cpp file is a program that creates a minimum spanning tree for a given set of points when MST mode is specified and solves the traveling salesmen problem when FASTTSP and OPTTSP mode are specified. FASTTSP is a near to optimal implementation of a solution to the TSP. OPTTSP is an implementation of the optimal solution to the TSP.
+
+Inputs are a file with X,Y coordinates and mode corresponding to the type of algorithm the code will run specified at the command line.
+Output for MST mode is the weight of all the edges of the MST followed by all the edges of the MST unless it is not possible to construct an MST, in which case the program will output an error message.
+Output for FASTTSP and OPTTSP mode is the overall length of the tour followed by the indices of the nodes hit along the tours
