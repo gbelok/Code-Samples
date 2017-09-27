@@ -5,7 +5,7 @@ Additionally, it evaluates the process in the case that there could be only two 
 If we consider the events to be independent, I generated two independent random variables to determine if the loss occurred or not. If we consider the events to be dependent, I generated a single random variable to compare with 2-dimensional marginal probabilities calculated from the input loss probabilities to determining which types of losses occurred.
 I determined that the variance in the dependent case is larger which provides insight into properties like risk when applying this to insurance or credit risk.
 
-PaperSim.m models loss in the independent case and Dependent_case.m models loss in the dependent case.
+PaperSim.m models loss in the independent case and Dependent_case.m models loss in the dependent case. I provided my report to give you a more comprehensive understanding of my work.
 
 The project4.cpp file is a program that creates a minimum spanning tree for a given set of points when MST mode is specified and solves the traveling salesmen problem when FASTTSP and OPTTSP mode are specified. FASTTSP is a near to optimal implementation of a solution to the TSP. OPTTSP is an implementation of the optimal solution to the TSP.
 
